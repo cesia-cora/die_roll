@@ -5,8 +5,8 @@
 
 This project simulates a simple roll a die game. It possess two modes of dice rolling: unbiased dice rolling and biased dice rolling. The first one simulates a basic roll of all equally likely outcomes, while the second one favors one side of the die (left or right). ASCII art is used for dice faces, probability results and statistical plots are shown for addition.
 
-## project.py
-The first input asks the user which dice mode is gonna be played:
+## dice_roll.py
+The first input asks the user which die mode is gonna be played:
 
 * <i>1</i> for unbiased dice
 * <i>2</i> for biased dice.
