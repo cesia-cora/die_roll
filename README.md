@@ -1,3 +1,8 @@
+![Static Badge](https://img.shields.io/badge/Python-3.11.3-%23?style=for-the-badge&logo=python&labelColor=black&color=4b8378)
+![Static Badge](https://img.shields.io/badge/Pandas-2.2.2-%23?style=for-the-badge&logo=pandas&labelColor=black&color=4d4c60)
+![Static Badge](https://img.shields.io/badge/matplotlib-3.8.4-%23?style=for-the-badge&logo=matplotlib&labelColor=black&color=444444)
+![Static Badge](https://img.shields.io/badge/Pytest-8.2.0-%23?style=for-the-badge&logo=pytest&labelColor=black&color=b07154)
+
 # Dice Rolling Probability
 
 ## Description
@@ -20,3 +25,9 @@ After entering <i>2</i>, just as unbiased dice, the user has to choose an amount
 ### Dice art diagrams:
 Dice art diagrams are arranged in a dictionary where keys are integers from 1 to 6 and values are ASCII representations of dice faces corresponding to each integer.
 Dice faces will be shown below the final array in a single row. Be sure to have enough width on your terminal to print characters correctly.
+
+## Testing:
+
+Type the following command to test dice_roll.py:
+
+`py -m pytest -v -s test_roll_a_die.py`
